@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorServiceImplTest {
     private CalculatorService service = new CalculatorServiceImpl();
+
     @Test
     public void calculatorSumTest() {
         int result = service.calculatorSum(2, 2);
